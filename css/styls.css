@@ -1,0 +1,658 @@
+/* General styles */
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    width: 1200px;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: solid black;
+    background: white;
+
+    
+  }
+
+  .header__nav{
+    margin: 0% auto;
+    padding: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    
+  }
+
+  .header__section-container {
+    margin: 0 auto;
+    padding: 10px;
+    overflow: auto; 
+  }
+
+  
+
+  .header__article-logo img {
+    width: 150px; 
+    height: auto;
+    float: left;
+    padding: 20px;
+  }
+
+  
+  .main {
+    margin: 0%;
+    padding: 1rem;
+    max-width: 98%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h1, h2, h3 {
+    padding-bottom: 20px;
+    font-family: 'Maven Pro', sans-serif;
+
+  }
+
+  p {
+    margin: 10px 0;
+    color: white;
+  }
+
+   
+
+   .btn {
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    background:red;
+    padding: 15px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px
+  }
+
+  .btn:hover {
+    color:  #54e9bc;
+  }
+
+
+  .footer {
+    margin-top: 5rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+
+  }
+
+  .footer__section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    
+  }  
+
+
+  .bottenNav {
+    padding: 10px;
+    font-size: 5rem;
+  }
+
+
+
+
+  /* Styling index.html*/
+
+  /* Styling index.html header*/
+
+
+
+   #nav ul {
+    list-style: none;
+    float: right;
+  }
+
+   #nav ul li {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+   #nav ul li a:hover,
+   #nav ul li a.available {
+    color:  #54e9bc;
+  }
+
+
+  /* Styling index.html showcase*/
+
+
+
+   #showcase {
+    min-height: 100vh;
+   background: url(../img/09-night.jpg) no-repeat 
+   center center/cover;
+   background-attachment: fixed;
+  }
+
+
+  #showcase span {
+    color:  #54e9bc;
+  }
+
+   #showcase .showcase-content {
+    text-align: center;
+    padding-top: 135px;
+  }
+
+   #showcase .showcase-content h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+   #showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 2em;
+  }
+
+  #showcase p  {
+    font-size: 17px;
+  }
+
+
+
+  /* Styling index.html section-between*/
+
+   
+
+   
+  .section-between{
+    margin: 0%;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2rem;
+    line-height: 2em;
+  }
+
+
+  /* Styling index.html main*/
+
+
+
+  .main__sectio-Hinfo {
+    max-width: 1100px;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+
+  }
+
+  .main__article-Hinfo {
+    grid-column: auto / span 2;
+    background: white;
+  }
+
+  .main__img-Hinfo {
+    width: 100%;
+    
+  }
+
+  .main__h2-welkoom {
+    text-align: start;
+    padding: 10px;
+  }
+
+  .main__p-welkoom  {
+    margin: 0;
+    text-align: start;
+    padding: 10px;
+    color: black;
+  }
+
+  /* Styling index-html footer*/
+
+  body main article button {
+    float: right;
+  }
+
+
+
+  
+
+ 
+
+
+  /* Styling bockning-html*/
+
+    /* Styling bockning-html form*/
+
+  
+  
+  .form__section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: start
+  }
+  
+
+  .form__section-label {
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 350px;
+    text-align: start;
+    background-color: red;
+    color: #eeeeee;
+  }
+  
+  .form__section-input {
+    margin-bottom: 10px;
+    font-size: large;
+    width: 350px;
+    height: 3rem;
+    text-align: center;
+  }
+  
+  .forminputgroup__label {
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 350px;
+    text-align: start;
+    background-color: red;
+    color: #eeeeee;
+  }
+
+
+
+  /* Styling bockning details */
+
+  
+  .Summary{
+    background-color: red;
+    color: white;
+    width: 10rem;
+    height: 4rem;
+    padding: auto;
+    text-align: center;
+    font-size: larger;
+
+  }
+  
+  details > summary:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 1px rgb(131, 79, 79);
+  }
+
+  .details__h2-menuheader{
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+
+  .details__section-photo {
+    margin: 0;
+    padding: 1rem;
+    max-width: 1200px;
+    width:98%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+
+  .detalis__article-box{
+    margin: 0% auto;
+    padding: 10px;
+    background: #dddddd;
+    box-shadow: 0 0 3rem rgba(0,0,0,.2);
+    grid-column: auto / span 1;
+    
+  }
+
+  .detalis__img {
+    margin: 0% ;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+  }
+
+  .detalis__h3 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .detals__p-Pric {
+    margin: 0%;
+    color: black;
+    
+  }
+
+  .detals__p-star {
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: #ffcc00;
+    box-shadow: black;
+  }
+
+
+
+
+
+
+  /* Styling about-html*/
+
+  .main__section-aboutupp , .main__section-aboutneer {
+    margin: 0 auto;
+    background-color: #dddddd;
+    max-width: 1200px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3rem rgba(0,0,0,.2);
+
+  }
+  .section__h1-about {
+    padding: 10px;
+    color: black;
+    font-size: 40px;
+    
+  }
+
+  .section__p-about {
+    color: black;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 98%;
+  }
+ }
+
+ @media screen and (max-width: 650px) {
+  .wrapper {
+    width: 100%;
+  }
+  
+
+
+
+  /* Styling index.html*/
+
+  /* Styling index-html header*/
+
+  .header__section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+
+  .header__article-logo {
+    order: 1;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .header__list {
+    order: 2;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .header__article-logo img {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+    float: left;
+  }
+
+  #nav {
+    text-align: center;
+  }
+
+  #nav ul {
+    float: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  #nav ul li {
+    display: block;
+    padding: 10px;
+  }
+  h1, h2, h3 {
+    padding-bottom: 10px;
+
+  }
+
+  /* Styling index-html showcase*/
+
+
+  #showcase {
+    margin: 0%;
+    padding-bottom: 1rem;
+    max-width: 650px;
+    width: 100%;
+    min-height: 50vh;
+   
+  }
+
+
+
+  #showcase .showcase-content {
+   
+    padding-top: 50px;
+  }
+
+   #showcase .showcase-content h1 {
+    font-size: 30px;
+  }
+
+   #showcase .showcase-content p {
+    font-size: medium;
+    padding-bottom: 10px;
+    line-height: 2em;
+  }
+  
+
+  .section-between{
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 2em;
+  }
+
+  /* Styling index-html main*/
+
+  .main__sectio-Hinfo {
+    max-width: 650px;
+    width: 98%;
+    margin: 0.5rem auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+
+  }
+
+
+
+  .main__img-Hinfo {
+    width: 98%;
+    
+  }
+
+  .main__h2-welkoom  {
+    text-align: start;
+    padding: 10px;
+  }
+
+  .main__p-welkoom  {
+    margin: 0;
+    text-align: start;
+    padding: 10px;
+    color: black;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 10px
+  }
+
+  /* Styling index-html footer*/
+
+  .footer {
+    margin: 1rem auto;
+    padding: 3rem;
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+
+  }
+
+  .footer__section-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+    
+  }  
+
+
+
+
+
+
+
+  /* Styling boockning-html */
+  /* Styling index-html footer*/
+
+ 
+  .details__section-photo {
+    max-width: 650px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  .bookPicInfo {
+     
+    height: none;
+    
+  }
+
+  .form__section-label {
+    width: 250px;
+    background-color: black;
+  }
+
+
+  .form__section-input{
+    width: 250px;
+    height: 3rem;
+  }
+
+  
+  /* Styling bockning details */
+
+  
+  .Summary{
+    background-color: black;
+    width: 10rem;
+    height: 4rem;
+
+  }
+
+  .details__h2-menuheader{
+    padding: 0.5rem;
+  }
+
+
+  /* Styling about-html*/
+
+  .main__section-aboutupp , .main__section-aboutneer  {
+    margin: 0 auto;
+    background-color: #dddddd;
+    max-width: 650px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3rem rgba(0,0,0,.2);
+
+  }
+  .section__h1-about {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    
+  }
+
+  .section__p-about {
+    color: black;
+    text-align: center;
+  }
+
+
+   
+  
+
+
+  
+
+  
+
+
+}
+
+  
+
+
+  
+ 
+  
+
+  
+  
+
+
+
+
+
+
+
+   
+   
+   
+
